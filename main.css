@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.header {
+    font-family: "Nimbus-sans", sans-serif;
+    background: url("background image.jpg");
+    background-position: none;
+    background-size: cover;
+    height: 100vh;
+}
+
+.top-bar {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(var(--bs-gutter-y) *   1);
+    margin-right: calc(var(--bs-gutter-x) * 3);
+    margin-left: calc(var(--bs-gutter-x) * 3);
+}
+.icon-mail{
+    margin-right: 0px;
+    margin-left: 0px;
+    border: 30px;
+}
+.icon-placeholder{
+    margin-right: 230px;
+    margin-top: 100px;
+}
